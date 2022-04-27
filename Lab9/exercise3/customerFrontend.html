@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="formChecker.js"></script>
+    <body>
+        <form onsubmit="return validate()" action="customerBackend.php" method="post">
+            <fieldset>
+                <b>Snacks for Sale</b><br>
+                <input type="text" class="menu" id="pop" name="Qpop">Popcorn Balls $15<br>
+                <input type="text" class="menu" id="milk" name="Qclusters">Milk Chocolate Caramel Clusters $12<br>
+                <input type="text" class="menu" id="dough" name="Qdough">Chocolate Chip Cookie Dough $13<br>
+                <br>
+                <b>Select a Shipping Option</b><br>
+                <input type="radio" name="ship" value="Standard" id="f">Free 7 Day<br>
+                <input type="radio" name="ship" value="Next Day" id="o">$50.00 over night<br>
+                <input type="radio" name="ship" value="Express" id="t">$5.00 three day<br><br>
+                <fieldset class="signup">
+                    <legend><b>SignUp</b></legend>
+                    <label>Username:</label><br>
+                    <input type="text" id="user" name="user"><br>
+                    <label>Password:</label><br>
+                    <input type="password" id="passW" name="passW"><br>
+                </fieldset>
+                <br>
+                <input type="submit"> <input type="reset">
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.signup{
+    margin-right: 75%;
+}
+body{
+    background-color: lightblue;
+}
+.menu{
+    width: 20px;
+    text-align: center;
+}
+table, th , td{
+	border: 1px solid;
+}
+th{
+	background-color: white;
+}
+td{
+	background-color: yellow;
+}
